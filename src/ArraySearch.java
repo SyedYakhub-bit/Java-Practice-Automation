@@ -16,7 +16,10 @@ public class ArraySearch {
 
         for (int i = 0; i < numbers.length; i++) {
             if (x == numbers[i]) {
-                System.out.println("The number " + x + " is in  " + (i + 1) + " position of the array.");
+                System.out.println("The number " + x + " is at  " + (i + 1) + " position of the array.");
+            }
+            else{
+                System.out.println("The number doesn't exists in the array, please enter a valid search number");
             }
         }
     }
