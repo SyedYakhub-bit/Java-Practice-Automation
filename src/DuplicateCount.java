@@ -26,6 +26,6 @@ public class DuplicateCount {
                 }
             }
         }
-        System.out.println(duplicateCharacterMap);
+        System.out.println("This is the duplicate Map: "+ duplicateCharacterMap);
     }
 }
