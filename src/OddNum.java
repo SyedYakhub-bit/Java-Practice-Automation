@@ -14,10 +14,10 @@ public class OddNum {
         }
         //checking odd
         System.out.println("The odd numbers from the above list are: ");
-        for(int i=0;i< (array.length);i++){
-            if (array[i]%2!=0){
+        for (int j : array) {
+            if (j % 2 != 0) {
 
-                System.out.println(array[i]);
+                System.out.println(j);
 
             }
         }
